@@ -7,9 +7,9 @@
 //    Almacena los números que salgan pares en un array pares
 
 
-var miArreglo[];
-var arregloPar[];
-var arregloImpar[];
+var miArreglo = [];
+var arregloPar = [];
+var arregloImpar = [];
 
 
 
