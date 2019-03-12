@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Fotor de Formularios</title>
+	 <script type="text/javascript">
+      	var seleccion = document.querySelector(#elem);
+      	var seleccionado;
+      	switch (elem.option.value) {
+      		case 1:
+      		seleccionado = document.createElement("input");
+      		seleccionado.type = "text";
+      		break;
+      		case 2:
+      		seleccionado = document.createElement("input");
+      		seleccionado.type = "number";
+      		break;
+      		case 3:
+      		seleccionado = document.createElement("input");
+      		seleccionado.type = "email";
+      		case 4:
+      		seleccionado = document.createElement("select");
+      		case 5:
+      		seleccionado = document.createElement("select");
+      		case 6:
+      		seleccionado = document.createElement("select");
+
+      	}
+
+
+      </script>
+</head>
+<body>
+<form method="post" action="miservidor.php">
+	<div>
+      <label for=”elem”>Que tipo de elemento desea crear?</label>
+      <select id=”elem”>
+        <option value=”1”>Campo de texto</option>
+        <option value=”2”>Campo de numero</option>
+        <option value=”3”>Campo para introducir email</option>
+        <option value=”4”>Lista de selección</option>
+        <option value=”5”>Campo para incluir unas opciones no exclusivas de selección</option>
+        <option value=”6”>Campo para incluir opciones exclusivas de selección.</option>
+      </select>
+     
+</div>
+</form>
+</body>
+</html>
